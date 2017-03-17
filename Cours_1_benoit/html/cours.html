@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="../css/default.css" />
+        <script type="text/javascript" src="../js/cours.js"></script>
+    </head>
+    <body>
+        <form name="monForm" action="" onsubmit="return checkForm()">
+            <div id="input"><label for="Nom">Nom</label><input name="nom" type="text" id="area1"><span id="Error1">*</span></div>
+            <div id="input1"><label for="Prénom">Prénom</label><input name="prenom" type="text" id="area2"><span id="Error2">*</span></div>
+            <div id="input2"><label for="email" id>Email</label><input name="email" type="text" id="area3"><span id="Error3">*</span></div>
+            <div id="input3"><label for="email2">Confirm Email</label><input name="email2" type="text" id="area4"><span id="Error4">*</span></div>
+            <div id="input4"><label for="telephone">Téléphone</label><input name="tel" type="text" id="area5"><span id="Error5">*</span></div>
+            <div id="input5"><label for="telephone_p">Téléphone Portable</label><input name="tel_p" type="text" id="area6"><span id="Error6">*</span></div>
+            <input type="submit">
+            <h4 id="missing"></h4>
+        </form>
+    </body>
+</html>

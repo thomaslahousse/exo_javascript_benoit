@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="exojavascript.js"></script>
+
+</head>
+<body>
+    <div id="maDiv1">Hello</div>
+    <button onClick="changeCouleur(20,255,80)"></button>
+    <button onClick="changeColorFont('blue')">Change Color</button>
+    <form name="monForm" action="/" onsubmit="return checkForm()">
+        <div class="input"><label for="Nom">Nom</label><input name="nom" type="text"></div>
+        <div class="input"><label for="Prénom">Prénom</label><input name="prenom" type="text"></div>
+        <div class="input"><label for="email">Email</label><input name="email" type="text"></div>
+        <div class="input"><label for="email2">Confirm Email</label><input name="email2" type="text"></div>
+        <div class="input"><label for="Téléphone">Tel</label><input name="tel" type="text"></div>
+        <input type="submit">
+    </form>
+</body>
+</html>
